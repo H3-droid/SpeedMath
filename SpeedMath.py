@@ -47,4 +47,5 @@ while wrong < 3:
   t.cancel()
   timeout = timeout - 1
 print("Game Over!")
-print("You got %d points") % correct
+final = "You got %d points" % correct
+print(final)
